@@ -20,6 +20,11 @@ class App < Sinatra::Base
   end
 
   get "/multiply/:num1/:num2" do
+    set @num1
+    set @num2
+    set product
+    return "product"
   end
+
 
 end
