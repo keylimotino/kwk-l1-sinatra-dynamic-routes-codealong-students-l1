@@ -23,7 +23,7 @@ class App < Sinatra::Base
     @num1 = params[:36]
     @num2 = params[:36]
     product
-    return "product"
+    return "36"
   end
 
 
